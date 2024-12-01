@@ -13,7 +13,8 @@ Tags: dark, developer, markdown, portfolio
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Vazir', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
     padding-left: 10px;
     padding-left: 150px;
     padding-right: 150px;
