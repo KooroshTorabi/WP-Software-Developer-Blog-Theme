@@ -1,0 +1,33 @@
+/*
+Theme Name: Software Developer Blog
+Theme URI: https://yourwebsite.com/software-developer-blog
+Author: Your Name
+Author URI: https://yourwebsite.com
+Description: A modern theme with markdown support, dark background, and custom fonts for software developers.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: software-developer-blog
+Tags: dark, developer, markdown, portfolio
+*/
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.post-image {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+pre, code {
+    background: #1e1e1e;
+    color: #cfcfcf;
+    padding: 10px;
+    border-radius: 5px;
+}
