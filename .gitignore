@@ -37,10 +37,10 @@ wp-content/backup/
 *.bak
 
 # Ignore everything in the WordPress root except the theme
-/*
-!.gitignore
+
+# !.gitignore
 !wp-content/
 wp-content/*
 !wp-content/themes/
 wp-content/themes/*
-!.gitignore
+# !.gitignore
