@@ -1,48 +1,46 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# Operating system files
+.DS_Store
+Thumbs.db
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
-
-# Configuration
-wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
-/wp-content/uploads/
-
-# Log files
+# Logs and system files
 *.log
+*.cache
 
-# htaccess
-/.htaccess
+# Node.js dependencies (if using a build process)
+node_modules/
+npm-debug.log*
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# Compiled assets (if applicable)
+*.min.js
+*.min.css
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# SASS/SCSS cache
+.sass-cache/
+
+# Build or dist folder (if using a build process)
+dist/
+build/
+
+# WordPress-specific files
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backup/
+*.sql
+*.tar.gz
+*.zip
+
+# Theme-specific files
+*.swp
+*.swo
+*.bak
+
+# Ignore everything in the WordPress root except the theme
+/*
+!.gitignore
+!wp-content/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!.gitignore

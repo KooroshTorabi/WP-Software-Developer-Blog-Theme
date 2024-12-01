@@ -14,6 +14,9 @@ body {
     background-color: #121212;
     color: #ffffff;
     font-family: 'Titillium Web', sans-serif;
+    padding-left: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,4 +33,18 @@ pre, code {
     color: #cfcfcf;
     padding: 10px;
     border-radius: 5px;
+}
+
+@media (max-width: 1024px) { /* Tablet view */
+    body {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile view */
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
