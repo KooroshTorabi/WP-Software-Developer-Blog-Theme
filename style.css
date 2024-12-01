@@ -13,11 +13,10 @@ Tags: dark, developer, markdown, portfolio
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: 'Vazir', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
     /* font-family: 'Titillium Web', sans-serif; */
-    padding-left: 10px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
